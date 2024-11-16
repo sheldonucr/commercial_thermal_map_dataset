@@ -12,9 +12,13 @@ Due to GitHub's file size limitations, we only store some samples here. The comp
 Files starting with 'CPU_i5' and 'CPU_i7' contain data for the Intel i5-3337U and i7-8650U CPU. Each file corresponds to continuous recordings of CPU performance metrics and thermal maps over time under a specific task. For each data point, the input is a vector and the output is a heat map. You can stack the performance metrics data from the time points preceding a given time to form a time series for training a time series model.
 
 
-## AMD Ryzen 7 4800U & NVIDIA GeForce RTX 4060
+## AMD Ryzen 7 4800U
 
-CPU_R7_4800U.pkl and GPU_RTX_4060.pkl contain data for the AMD Ryzen 7 4800U CPU and NVIDIA GeForce RTX 4060 GPU. For each data point, the input is already a time series and the output is the corresponding thermal map.
+CPU_R7_4800U.pkl contain data for the AMD Ryzen 7 4800U CPU.  For each data point, the input is already a time series and the output is the corresponding thermal map.
+
+## NVIDIA GeForce RTX 4060
+
+GPU_RTX_4060.pkl contain data for  NVIDIA GeForce RTX 4060 GPU. For each data point, the input is already a time series and the output is the corresponding thermal map.
 
 
 ## Google Coral M.2 TPU
