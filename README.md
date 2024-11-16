@@ -8,23 +8,7 @@ Due to GitHub's file size limitations, we only store some samples here. The comp
 
 References:
 Lu J, Tan S X, "Thermal Map Dataset for Commercial Multi/Many Core CPU/GPU/TPU", Proceedings of the 2024 ACM/IEEE International Symposium on Machine Learning for CAD, vol. 33, pp. 1-7, 2024. 10.1145/3670474.3685963 [3670474.3685963.pdf](https://github.com/user-attachments/files/17787519/3670474.3685963.pdf)
-latex citation here [Uploading acm_3670474.3685963.bib…](@inproceedings{10.1145/3670474.3685963,
-author = {Lu, Jincong and Tan, Sheldon X.-D.},
-title = {Thermal Map Dataset for Commercial Multi/Many Core CPU/GPU/TPU},
-year = {2024},
-isbn = {9798400706998},
-publisher = {Association for Computing Machinery},
-address = {New York, NY, USA},
-url = {https://doi.org/10.1145/3670474.3685963},
-doi = {10.1145/3670474.3685963},
-abstract = {This paper presents a comprehensive set of datasets containing transient thermal maps of commercial multi/many-core CPU, GPU, and TPU processors. These thermal maps were obtained using a thermal IR imaging system and include data from a range of processors: Intel i5-3337U dual-core CPU, Intel i7-8650U quad-core CPU, AMD Ryzen 7 4800U 8-core CPU, NVIDIA GeForce RTX 4060 GPU, and Google Coral M.2 TPU. Additionally, we review recently proposed thermal map estimation methods developed using various Deep Neural Network (DNN) techniques, including Long Short-Term Memory (LSTM), Generative Adversarial Networks (GAN), and transformer-based models. We provide a detailed discussion and comparison of these models trained on the thermal map datasets. These datasets aim to support and stimulate advanced research in thermal map estimation and modeling within the research community.},
-booktitle = {Proceedings of the 2024 ACM/IEEE International Symposium on Machine Learning for CAD},
-articleno = {25},
-numpages = {7},
-location = {Salt Lake City, UT, USA},
-series = {MLCAD '24}
-})
-
+latex citation here [Uploading acm_3670474.3685963.bib…]
 
 ## Intel i5-3337U & i7-8650U
 
