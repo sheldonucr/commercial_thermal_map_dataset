@@ -6,8 +6,8 @@ The data is stored in serialized Python object format and can be read using Pyth
 
 Due to GitHub's file size limitations, we only store some samples here. The complete datasets are available upon request.
 
-References: \\
-Lu J, Tan S X, "Thermal Map Dataset for Commercial Multi/Many Core CPU/GPU/TPU", Proceedings of the 2024 ACM/IEEE International Symposium on Machine Learning for CAD, vol. 33, pp. 1-7, 2024. 10.1145/3670474.3685963 [Commerical Thermal Map Dataset.pdf](https://github.com/user-attachments/files/17787524/Commerical.Thermal.Map.Dataset.pdf), https://dl.acm.org/doi/10.1145/3670474.3685963
+### References: < br / >
+Lu J, Tan S X, "Thermal Map Dataset for Commercial Multi/Many Core CPU/GPU/TPU", Proceedings of the 2024 ACM/IEEE International Symposium on Machine Learning for CAD, vol. 33, pp. 1-7, 2024. 10.1145/3670474.3685963. The paper can be download here [Commerical Thermal Map Dataset.pdf](https://github.com/user-attachments/files/17787524/Commerical.Thermal.Map.Dataset.pdf), See also: https://dl.acm.org/doi/10.1145/3670474.3685963
 
 
 
