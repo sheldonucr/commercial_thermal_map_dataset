@@ -17,6 +17,7 @@ Files starting with 'CPU_i5' and 'CPU_i7' contain data for the Intel i5-3337U an
 CPU_R7_4800U.pkl contain data for the AMD Ryzen 7 4800U CPU.  For each data point, the input is already a time series and the output is the corresponding thermal map.
 
 ## NVIDIA GeForce RTX 4060
+![thermal_image_480](https://github.com/user-attachments/assets/d1285af8-aa5e-4f0e-b8c9-a608e2b373c8)
 
 GPU_RTX_4060.pkl contain data for  NVIDIA GeForce RTX 4060 GPU. For each data point, the input is already a time series and the output is the corresponding thermal map.
 
