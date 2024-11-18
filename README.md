@@ -20,21 +20,21 @@ Files starting with 'CPU_i5' and 'CPU_i7' contain data for the Intel i5-3337U an
 <figure>
   <p align="center" width="100%">
     <img src="https://github.com/sheldonucr/commercial_thermal_map_dataset/blob/main/fig/thermal_map_i5_3337U.png" width="400">
-    <figcaption><span align="center">Fig.1 Thermal map of Intel i5-3337U</span></figcaption>
+    <figcaption><em align="center">Fig.1 Thermal map of Intel i5-3337U</em></figcaption>
   </p>
 </figure>
 
 <figure>
   <p align="center" width="100%">
     <img src="https://github.com/sheldonucr/commercial_thermal_map_dataset/blob/main/fig/thermal_map_i7_8650U.png" width="400">
-    <figcaption><span align="center">Fig.2 Thermal map of Intel i7-8650U</span></figcaption>
+    <figcaption><em align="center">Fig.2 Thermal map of Intel i7-8650U</em></figcaption>
   </p>
 </figure>
 
 <figure>
   <p align="center" width="100%">
     <img src="https://github.com/sheldonucr/commercial_thermal_map_dataset/blob/main/fig/i7_hotspot.png" width="400">
-    <figcaption><span align="center">Fig.3 i7-8650U with temperatures at sensor and true hot spot</span></figcaption>
+    <figcaption><em align="center">Fig.3 i7-8650U with temperatures at sensor and true hot spot</em></figcaption>
   </p>
 </figure>
 
@@ -53,7 +53,7 @@ GPU_RTX_4060.pkl contain data for  NVIDIA GeForce RTX 4060 GPU. For each data po
 <figure>
   <p align="center" width="100%">
     <img src="https://github.com/sheldonucr/commercial_thermal_map_dataset/blob/main/fig/thermal_map_RTX_4060.png" width="400">
-    <figcaption><span align="center">Fig.4 Thermal map of NVIDIA RTX 4060</span></figcaption>
+    <figcaption><em align="center">Fig.4 Thermal map of NVIDIA RTX 4060</em></figcaption>
   </p>
 </figure>
 
@@ -65,6 +65,6 @@ TPU_Google_Edge.pkl contain data for the Google Coral M.2 TPU. Due to its task-s
 <figure>
   <p align="center" width="100%">
     <img src="https://github.com/sheldonucr/commercial_thermal_map_dataset/blob/main/fig/thermal_map_Google_Edge.png" width="400">
-    <figcaption><span align="center">Fig.5 Thermal map of Google Coral M.2 TPU</span></figcaption>
+    <figcaption><em align="center">Fig.5 Thermal map of Google Coral M.2 TPU</em></figcaption>
   </p>
 </figure>
