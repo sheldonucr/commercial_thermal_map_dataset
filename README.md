@@ -19,17 +19,17 @@ Files starting with 'CPU_i5' and 'CPU_i7' contain data for the Intel i5-3337U an
 
 <center>
     <img src="https://github.com/sheldonucr/commercial_thermal_map_dataset/blob/main/fig/thermal_map_i5_3337U.png" width="400">
-    <div>Thermal map of Intel i5-3337U</div>
+    <div style="display:inline-block;padding:2px">Fig.1 Thermal map of Intel i5-3337U</div>
 </center>
 
 <center>
     <img src="https://github.com/sheldonucr/commercial_thermal_map_dataset/blob/main/fig/thermal_map_i7_8650U.png" width="400">
-    <div>Thermal map of Intel i7-8650U</div>
+    <div style="display:inline-block;padding:2px">Fig.2 Thermal map of Intel i7-8650U</div>
 </center>
 
 <center>
     <img src="https://github.com/sheldonucr/commercial_thermal_map_dataset/blob/main/fig/i7_hotspot.png" width="400">
-    <div>i7-8650U with temperatures at sensor and true hot spot</div>
+    <div style="display:inline-block;padding:2px">Fig.3 i7-8650U with temperatures at sensor and true hot spot</div>
 </center>
 
 
@@ -37,10 +37,7 @@ Files starting with 'CPU_i5' and 'CPU_i7' contain data for the Intel i5-3337U an
 
 CPU_R7_4800U.pkl contain data for the AMD Ryzen 7 4800U CPU.  For each data point, the input is already a time series and the output is the corresponding thermal map.
 
-<center>
-    https://github.com/user-attachments/assets/65d351e7-59a4-4116-b9e8-efec81559778
-    <div>Thermal map of AMD Ryzen 7 4800U</div>
-</center>
+https://github.com/user-attachments/assets/65d351e7-59a4-4116-b9e8-efec81559778
 
 
 ## NVIDIA GeForce RTX 4060
@@ -49,7 +46,7 @@ GPU_RTX_4060.pkl contain data for  NVIDIA GeForce RTX 4060 GPU. For each data po
 
 <center>
     <img src="https://github.com/sheldonucr/commercial_thermal_map_dataset/blob/main/fig/thermal_map_RTX_4060.png" width="400">
-    <div>Thermal map of NVIDIA RTX 4060</div>
+    <div style="display:inline-block;padding:2px">Fig.4 Thermal map of NVIDIA RTX 4060</div>
 </center>
 
 
@@ -59,5 +56,5 @@ TPU_Google_Edge.pkl contain data for the Google Coral M.2 TPU. Due to its task-s
 
 <center>
     <img src="https://github.com/sheldonucr/commercial_thermal_map_dataset/blob/main/fig/thermal_map_Google_Edge.png" width="400">
-    <div>Thermal map of Google Coral M.2 TPU</div>
+    <div style="display:inline-block;padding:2px">Fig.5 Thermal map of Google Coral M.2 TPU</div>
 </center>
