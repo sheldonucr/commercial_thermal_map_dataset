@@ -17,23 +17,24 @@ Lu J, Tan S X, "Thermal Map Dataset for Commercial Multi/Many Core CPU/GPU/TPU",
 
 Files starting with 'CPU_i5' and 'CPU_i7' contain data for the Intel i5-3337U and i7-8650U CPU. Each file corresponds to continuous recordings of CPU performance metrics and thermal maps over time under a specific task. For each data point, the input is a vector and the output is a heat map. You can stack the performance metrics data from the time points preceding a given time to form a time series for training a time series model.
 
+![thermal_image_480](https://github.com/sheldonucr/commercial_thermal_map_dataset/blob/main/fig/thermal_map_i5_3337U.png)
 
-
-
-
+![thermal_image_480](https://github.com/sheldonucr/commercial_thermal_map_dataset/blob/main/fig/thermal_map_i7_8650U.png)
 
 ## AMD Ryzen 7 4800U
 
 CPU_R7_4800U.pkl contain data for the AMD Ryzen 7 4800U CPU.  For each data point, the input is already a time series and the output is the corresponding thermal map.
 
-https://github.com/user-attachments/assets/65d351e7-59a4-4116-b9e8-efec81559778
+https://github.com/sheldonucr/commercial_thermal_map_dataset/blob/main/fig/thermal_map_R7_4800U.mp4
 
 ## NVIDIA GeForce RTX 4060
-![thermal_image_480](https://github.com/user-attachments/assets/d1285af8-aa5e-4f0e-b8c9-a608e2b373c8)
 
 GPU_RTX_4060.pkl contain data for  NVIDIA GeForce RTX 4060 GPU. For each data point, the input is already a time series and the output is the corresponding thermal map.
 
+![thermal_image_480](https://github.com/sheldonucr/commercial_thermal_map_dataset/blob/main/fig/thermal_map_RTX_4060.png)
 
 ## Google Coral M.2 TPU
 
 TPU_Google_Edge.pkl contain data for the Google Coral M.2 TPU. Due to its task-specific nature, we do not use performance metrics to predict real-time temperature. Instead, we use the features of the machine learning tasks deployed on it to predict the steady-state temperature during runtime. For each data point, the input is a feature vector of the workload, and the output is the steady-state thermal map.
+
+![thermal_image_480](https://github.com/sheldonucr/commercial_thermal_map_dataset/blob/main/fig/thermal_map_Google_Edge.png)
