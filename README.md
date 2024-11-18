@@ -17,24 +17,47 @@ Lu J, Tan S X, "Thermal Map Dataset for Commercial Multi/Many Core CPU/GPU/TPU",
 
 Files starting with 'CPU_i5' and 'CPU_i7' contain data for the Intel i5-3337U and i7-8650U CPU. Each file corresponds to continuous recordings of CPU performance metrics and thermal maps over time under a specific task. For each data point, the input is a vector and the output is a heat map. You can stack the performance metrics data from the time points preceding a given time to form a time series for training a time series model.
 
-<img src="https://github.com/sheldonucr/commercial_thermal_map_dataset/blob/main/fig/thermal_map_i5_3337U.png" width="400">
+<center>
+    <img src="https://github.com/sheldonucr/commercial_thermal_map_dataset/blob/main/fig/thermal_map_i5_3337U.png" width="400">
+    <div>Thermal map of Intel i5-3337U</div>
+</center>
 
-<img src="https://github.com/sheldonucr/commercial_thermal_map_dataset/blob/main/fig/thermal_map_i7_8650U.png" width="400">
+<center>
+    <img src="https://github.com/sheldonucr/commercial_thermal_map_dataset/blob/main/fig/thermal_map_i7_8650U.png" width="400">
+    <div>Thermal map of Intel i7-8650U</div>
+</center>
+
+<center>
+    <img src="https://github.com/sheldonucr/commercial_thermal_map_dataset/blob/main/fig/i7_hotspot.png" width="400">
+    <div>i7-8650U with temperatures at sensor and true hot spot</div>
+</center>
+
 
 ## AMD Ryzen 7 4800U
 
 CPU_R7_4800U.pkl contain data for the AMD Ryzen 7 4800U CPU.  For each data point, the input is already a time series and the output is the corresponding thermal map.
 
-https://github.com/user-attachments/assets/65d351e7-59a4-4116-b9e8-efec81559778
+<center>
+    https://github.com/user-attachments/assets/65d351e7-59a4-4116-b9e8-efec81559778
+    <div>Thermal map of AMD Ryzen 7 4800U</div>
+</center>
+
 
 ## NVIDIA GeForce RTX 4060
 
 GPU_RTX_4060.pkl contain data for  NVIDIA GeForce RTX 4060 GPU. For each data point, the input is already a time series and the output is the corresponding thermal map.
 
-<img src="https://github.com/sheldonucr/commercial_thermal_map_dataset/blob/main/fig/thermal_map_RTX_4060.png" width="400">
+<center>
+    <img src="https://github.com/sheldonucr/commercial_thermal_map_dataset/blob/main/fig/thermal_map_RTX_4060.png" width="400">
+    <div>Thermal map of NVIDIA RTX 4060</div>
+</center>
+
 
 ## Google Coral M.2 TPU
 
 TPU_Google_Edge.pkl contain data for the Google Coral M.2 TPU. Due to its task-specific nature, we do not use performance metrics to predict real-time temperature. Instead, we use the features of the machine learning tasks deployed on it to predict the steady-state temperature during runtime. For each data point, the input is a feature vector of the workload, and the output is the steady-state thermal map.
 
-<img src="https://github.com/sheldonucr/commercial_thermal_map_dataset/blob/main/fig/thermal_map_Google_Edge.png" width="400">
+<center>
+    <img src="https://github.com/sheldonucr/commercial_thermal_map_dataset/blob/main/fig/thermal_map_Google_Edge.png" width="400">
+    <div>Thermal map of Google Coral M.2 TPU</div>
+</center>
