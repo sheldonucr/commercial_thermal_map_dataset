@@ -44,6 +44,7 @@ Files starting with 'CPU_i5' and 'CPU_i7' contain data for the Intel i5-3337U an
 CPU_R7_4800U.pkl contain data for the AMD Ryzen 7 4800U CPU.  For each data point, the input is already a time series and the output is the corresponding thermal map.
 
 https://github.com/user-attachments/assets/65d351e7-59a4-4116-b9e8-efec81559778
+The thermal map video showing the changing hot spots across different cores.
 
 
 ## NVIDIA GeForce RTX 4060
