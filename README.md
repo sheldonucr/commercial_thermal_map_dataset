@@ -46,11 +46,7 @@ CPU_R7_4800U.pkl contain data for the AMD Ryzen 7 4800U CPU.  For each data poin
 https://github.com/user-attachments/assets/65d351e7-59a4-4116-b9e8-efec81559778
 
 The thermal map video showing the changing hot spots across different cores over time. 
-
-<video width="640" height="360" controls>
-  <source src="https://github.com/user-attachments/assets/65d351e7-59a4-4116-b9e8-efec81559778" type=https://github.com/user-attachments/assets/65d351e7-59a4-4116-b9e8-efec81559778>
-  Your browser does not support the video tag.
-</video>
+<!-- [![Watch the video]](https://github.com/user-attachments/assets/65d351e7-59a4-4116-b9e8-efec81559778) >
 
 ## NVIDIA GeForce RTX 4060
 
