@@ -9,7 +9,9 @@ Due to GitHub's file size limitations, we only store some samples here. The comp
 ### References: 
 Lu J, Tan S X, "Thermal Map Dataset for Commercial Multi/Many Core CPU/GPU/TPU", Proceedings of the 2024 ACM/IEEE International Symposium on Machine Learning for CAD, vol. 33, pp. 1-7, 2024. 10.1145/3670474.3685963. The paper can be download here [Commerical Thermal Map Dataset.pdf](https://github.com/user-attachments/files/17787524/Commerical.Thermal.Map.Dataset.pdf), For citation: https://dl.acm.org/doi/10.1145/3670474.3685963
 
+### Related project 
 
+[AI-Empowered Thermal Modeling and Run-Time Management for Manycore Processor and Chiplet Designs](https://vsclab.ece.ucr.edu/projects/2021/11/02/ai-empowered-thermal-modeling-and-run-time-management-manycore-processor-and)
 
 
 
