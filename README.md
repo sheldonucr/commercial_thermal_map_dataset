@@ -1,4 +1,4 @@
-# Thermal map database for commerical CPU/GPU/TPU multi/many core processors
+# Thermal map database for commercial CPU/GPU/TPU multi/many core processors
  
 This repository contains datasets for training machine learning models that predict the thermal spatial distribution of chips based on their performance metrics. The data is collected on Intel i5-3337U CPU, Intel i7-8650U CPU, AMD Ryzen 7 4800U CPU, NVIDIA GeForce RTX 4060 GPU, and Google Coral M.2 TPU. We will continue to expend this database going forward. Please stay tuned...
 
