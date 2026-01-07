@@ -74,21 +74,30 @@ GPU_RTX_4060.pkl contain data for  NVIDIA GeForce RTX 4060 GPU. For each data po
 ## Qualcomm SM6225 Snapdragon680 4G
 
 
-<!--  https://github.com/user-attachments/assets/f6162fc7-5f25-4ce1-9a9f-9ff99ebeeb3c -->
+## Thermal and Power-Density Analysis of Qualcomm Snapdragon 680 (SM6225)
 
+### Thermal Map Evolution
+The figure below shows the **temporal evolution of the thermal map** of the Qualcomm **SM6225 (Snapdragon 680 4G)** SoC, illustrating how on-chip temperature distributions change over time under workload execution.
+
+<!-- Thermal map over time -->
 https://github.com/user-attachments/assets/f6162fc7-5f25-4ce1-9a9f-9ff99ebeeb3c
-The thermal map of Qualcomm SM6225 Snapdragon680 4G over time
 
+---
 
-<!-- https://github.com/user-attachments/assets/251f853d-20c0-4e65-9642-45ac84d38089 -->
+### Thermal Map vs. Power-Density Map
+This figure compares the **initial thermal map** with the corresponding **derived power-density (heat flux) map** over time.  
+Distinct hotspot regions are clearly observed, demonstrating the relationship between localized power dissipation and temperature rise.
 
+<!-- Thermal map vs power density -->
 https://github.com/user-attachments/assets/251f853d-20c0-4e65-9642-45ac84d38089
-The first thermal map vs resulting powert density (heat flux map) over time with different hotspots. 
 
-<!-- https://github.com/user-attachments/assets/64ed355c-c11c-4b7c-9da3-8abfabf69e1c -->
+---
 
+### Enlarged View of Hotspot Regions
+An enlarged view of the thermal map is shown alongside the corresponding **power-density (heat flux) map**, providing finer spatial resolution of hotspot formation and evolution over time.
+
+<!-- Enlarged thermal and power-density maps -->
 https://github.com/user-attachments/assets/64ed355c-c11c-4b7c-9da3-8abfabf69e1c
-The enlarged thermal map vs resulting powert density (heat flux map) over time with different hotspots. 
 
 
 
