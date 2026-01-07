@@ -52,6 +52,12 @@ https://github.com/user-attachments/assets/4530c8a6-53b7-4b22-b7cf-edf249699f63
 
 The thermal map video showing the changing hot spots across different cores over time. 
 
+<! -- https://github.com/user-attachments/assets/8c392588-4187-47c9-acf7-099b463f46ca -->
+
+https://github.com/user-attachments/assets/8c392588-4187-47c9-acf7-099b463f46ca
+
+The thermal map vs resulting powert density (heat flux map) over time with different hotspots. 
+
 
 ## NVIDIA GeForce RTX 4060
 
