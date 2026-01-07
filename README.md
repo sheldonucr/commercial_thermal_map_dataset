@@ -74,17 +74,19 @@ GPU_RTX_4060.pkl contain data for  NVIDIA GeForce RTX 4060 GPU. For each data po
 ## Qualcomm SM6225 Snapdragon680 4G
 
 
-
 <!--  https://github.com/user-attachments/assets/f6162fc7-5f25-4ce1-9a9f-9ff99ebeeb3c -->
+
 https://github.com/user-attachments/assets/f6162fc7-5f25-4ce1-9a9f-9ff99ebeeb3c
 The thermal map of Qualcomm SM6225 Snapdragon680 4G over time
 
 
 <!-- https://github.com/user-attachments/assets/251f853d-20c0-4e65-9642-45ac84d38089 -->
+
 https://github.com/user-attachments/assets/251f853d-20c0-4e65-9642-45ac84d38089
 The first thermal map vs resulting powert density (heat flux map) over time with different hotspots. 
 
 <!-- https://github.com/user-attachments/assets/64ed355c-c11c-4b7c-9da3-8abfabf69e1c -->
+
 https://github.com/user-attachments/assets/64ed355c-c11c-4b7c-9da3-8abfabf69e1c
 The enlarged thermal map vs resulting powert density (heat flux map) over time with different hotspots. 
 
