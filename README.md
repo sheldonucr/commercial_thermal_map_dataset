@@ -89,7 +89,10 @@ This figure compares the **initial thermal map** with the corresponding **derive
 Distinct hotspot regions are clearly observed, demonstrating the relationship between localized power dissipation and temperature rise.
 
 <!-- Thermal map vs power density -->
-https://github.com/user-attachments/assets/251f853d-20c0-4e65-9642-45ac84d38089
+<!-- https://github.com/user-attachments/assets/251f853d-20c0-4e65-9642-45ac84d38089 -->
+https://github.com/user-attachments/assets/b0105b6f-8797-4dea-91d5-d291cb2767dc
+
+
 
 ---
 
