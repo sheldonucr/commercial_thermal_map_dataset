@@ -1,6 +1,6 @@
 # Thermal Map Dataset for Commercial CPU/GPU/TPU Multi/Many-Core Processors
 
-This repository contains datasets for training machine learning models that predict the thermal spatial distribution of chips based on their performance metrics. The data is collected on Intel i5-3337U CPU, Intel i7-8650U CPU, AMD Ryzen 7 4800U CPU, AMD Ryzen AI 5 340, NVIDIA GeForce RTX 4060 GPU, and Google Coral M.2 TPU. We will continue to expand this database going forward. Please stay tuned.
+This repository contains datasets for training machine learning models that predict the thermal spatial distribution of chips based on their performance metrics. The data is collected on Intel i5-3337U CPU, Intel i7-8650U CPU, AMD Ryzen 7 4800U CPU, AMD Ryzen 7 7730U CPU, AMD Ryzen AI 5 340, NVIDIA GeForce RTX 4060 GPU, and Google Coral M.2 TPU. We will continue to expand this database going forward. Please stay tuned.
 
 The data is stored in serialized Python object format and can be read using Python's pickle module. Each file contains a Python dictionary with two items. `"input"` stores a 2D/3D NumPy array representing performance metrics or other inputs for the model prediction. `"output"` stores a 3D array representing the thermal map data. The first dimension indicates the data point number within the dataset. For each data point, the input can either be a vector (1D) or a time series (2D), while the output is a 2D thermal map (in degrees Celsius).
 
@@ -85,6 +85,21 @@ The thermal map video above shows the changing hot spots across different cores 
 https://github.com/user-attachments/assets/8c392588-4187-47c9-acf7-099b463f46ca
 
 The thermal map vs. resulting power density (heat flux map) over time, with different hotspots.
+
+
+## AMD Ryzen 7 7730U
+
+`CPU_R7_7730U.pkl` contains data for the AMD Ryzen 7 7730U CPU. For each data point, the input is already a time series and the output is the corresponding thermal map.
+
+| Parameter | Value |
+|-----------|-------|
+| CPU cores / threads | 8C / 16T (Zen 3 refresh) |
+| Clock speed | 2.0 / 4.5 GHz (base / boost) |
+| Process node | 7 nm |
+| Peak performance | ~1.2 TFLOPs (CPU FP32, est.) |
+| TDP | 15 W |
+
+*(Images and videos coming soon.)*
 
 
 ## AMD Ryzen AI 5 340
