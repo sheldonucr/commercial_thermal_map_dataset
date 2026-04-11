@@ -20,6 +20,26 @@ Lu J, Tan S X, "Thermal Map Dataset for Commercial Multi/Many Core CPU/GPU/TPU",
 
 Files starting with `CPU_i5` and `CPU_i7` contain data for the Intel i5-3337U and i7-8650U CPUs. Each file corresponds to continuous recordings of CPU performance metrics and thermal maps over time under a specific task. For each data point, the input is a vector and the output is a heat map. You can stack the performance metric data from the time points preceding a given time to form a time series for training a time series model.
 
+**Intel i5-3337U**
+
+| Parameter | Value |
+|-----------|-------|
+| CPU cores / threads | 2C / 4T |
+| Clock speed | 1.8 / 2.7 GHz (base / boost) |
+| Process node | 22 nm (Ivy Bridge) |
+| Peak performance | ~45 GFLOPS (FP64, est.) |
+| TDP | 17 W |
+
+**Intel i7-8650U**
+
+| Parameter | Value |
+|-----------|-------|
+| CPU cores / threads | 4C / 8T |
+| Clock speed | 1.9 / 4.2 GHz (base / boost) |
+| Process node | 14 nm (Kaby Lake-R) |
+| Peak performance | ~200 GFLOPS (FP32, est.) |
+| TDP | 15 W |
+
 <figure>
   <p align="center" width="100%">
     <img src="https://github.com/sheldonucr/commercial_thermal_map_dataset/blob/main/fig/thermal_map_i5_3337U.png" width="400">
@@ -45,6 +65,14 @@ Files starting with `CPU_i5` and `CPU_i7` contain data for the Intel i5-3337U an
 ## AMD Ryzen 7 4800U
 
 `CPU_R7_4800U.pkl` contains data for the AMD Ryzen 7 4800U CPU. For each data point, the input is already a time series and the output is the corresponding thermal map.
+
+| Parameter | Value |
+|-----------|-------|
+| CPU cores / threads | 8C / 16T (Zen 2) |
+| Clock speed | 1.8 / 4.2 GHz (base / boost) |
+| Process node | 7 nm |
+| Peak performance | ~1 TFLOP (CPU FP32, est.) |
+| TDP | 15 W |
 
 <!-- https://github.com/user-attachments/assets/65d351e7-59a4-4116-b9e8-efec81559778 -->
 
@@ -81,6 +109,14 @@ For each data point, the input is already a time series and the output is the co
 
 `GPU_RTX_4060.pkl` contains data for the NVIDIA GeForce RTX 4060 GPU. For each data point, the input is already a time series and the output is the corresponding thermal map.
 
+| Parameter | Value |
+|-----------|-------|
+| CUDA cores | ~3,072 |
+| Clock speed | 1.83 / 2.46 GHz (base / boost) |
+| Process node | 5 nm (Ada Lovelace) |
+| Peak performance | ~15–24 TFLOPs (FP32) |
+| TDP | 115 W (desktop) / 35–80 W (laptop) |
+
 <figure>
   <p align="center" width="100%">
     <img src="https://github.com/sheldonucr/commercial_thermal_map_dataset/blob/main/fig/thermal_map_RTX_4060.png" width="400">
@@ -92,6 +128,14 @@ For each data point, the input is already a time series and the output is the co
 ## Qualcomm SM6225 Snapdragon 680 4G
 
 ### Thermal and Power-Density Analysis of Qualcomm Snapdragon 680 (SM6225)
+
+| Parameter | Value |
+|-----------|-------|
+| CPU cores | 8C (4× Kryo 265 Gold / A73 + 4× Kryo 265 Silver / A53) |
+| Clock speed | 2.4 GHz (A73) / 1.9 GHz (A53) |
+| Process node | 6 nm (TSMC) |
+| Peak performance | ~1 TOPS (Hexagon DSP) |
+| TDP | ~6–8 W |
 
 #### Thermal Map Evolution
 The figure below shows the **temporal evolution of the thermal map** of the Qualcomm **SM6225 (Snapdragon 680 4G)** SoC, illustrating how on-chip temperature distributions change over time under workload execution.
@@ -119,6 +163,14 @@ https://github.com/user-attachments/assets/64ed355c-c11c-4b7c-9da3-8abfabf69e1c
 ## Google Coral M.2 TPU
 
 `TPU_Google_Edge.pkl` contains data for the Google Coral M.2 TPU. Due to its task-specific nature, we do not use performance metrics to predict real-time temperature. Instead, we use the features of the machine learning tasks deployed on it to predict the steady-state temperature during runtime. For each data point, the input is a feature vector of the workload, and the output is the steady-state thermal map.
+
+| Parameter | Value |
+|-----------|-------|
+| Architecture | 1× Edge TPU (ASIC) |
+| Clock speed | N/A (fixed-function AI accelerator) |
+| Process node | 28 nm (GlobalFoundries) |
+| Peak performance | 4 TOPS (INT8) |
+| TDP | ~2 W |
 
 <figure>
   <p align="center" width="100%">
