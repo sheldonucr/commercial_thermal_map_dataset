@@ -89,7 +89,7 @@ The thermal map vs. resulting power density (heat flux map) over time, with diff
 
 ## AMD Ryzen AI 5 340
 
-`CPU_R_AI5_340.pkl` contains data for the AMD Ryzen AI 5 340. This is a Strix Point SoC featuring a 4-core/8-thread Zen 5 CPU, an integrated GPU, and a dedicated NPU, fabricated on a 4 nm process. Key specifications are listed below.
+`CPU_R_AI5_340.pkl` contains data for the AMD Ryzen AI 5 340 (to be added soon). This is a Strix Point SoC featuring a 4-core/8-thread Zen 5 CPU, an integrated GPU, and a dedicated NPU, fabricated on a 4 nm process. Key specifications are listed below.
 
 | Parameter | Value |
 |-----------|-------|
@@ -100,9 +100,16 @@ The thermal map vs. resulting power density (heat flux map) over time, with diff
 | iGPU performance | ~5–6 TFLOPs (est.) |
 | TDP | 28–45 W (configurable, CPU + GPU + NPU) |
 
-For each data point, the input is already a time series and the output is the corresponding thermal map.
+https://github.com/user-attachments/assets/8a739d2f-3365-4e92-8f43-a75133d3b7ff
+The thermal map video above shows the changing hot spots across different cores over time for AMD Ryzen AI 5 340.
 
-*(Images and videos coming soon.)*
+
+https://github.com/user-attachments/assets/874c789d-00cc-4a5b-95fc-e7d4808d0a4d
+The resulting power density map from the thermal map
+
+
+
+
 
 
 ## NVIDIA GeForce RTX 4060
