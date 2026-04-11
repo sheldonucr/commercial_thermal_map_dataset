@@ -89,7 +89,7 @@ The thermal map vs. resulting power density (heat flux map) over time, with diff
 
 ## AMD Ryzen 7 7730U
 
-`CPU_R7_7730U.pkl` contains data for the AMD Ryzen 7 7730U CPU. For each data point, the input is already a time series and the output is the corresponding thermal map.
+`CPU_R7_7730U.pkl` contains data for the AMD Ryzen 7 7730U CPU (to be added soon). For each data point, the input is already a time series and the output is the corresponding thermal map.
 
 | Parameter | Value |
 |-----------|-------|
