@@ -99,7 +99,11 @@ The thermal map vs. resulting power density (heat flux map) over time, with diff
 | Peak performance | ~1.2 TFLOPs (CPU FP32, est.) |
 | TDP | 15 W |
 
-*(Images and videos coming soon.)*
+
+
+https://github.com/user-attachments/assets/3ab45b67-f376-4de8-b35a-6d3d0999e641
+
+The thermal map video above shows the changing hot spots across different cores over time.
 
 
 ## AMD Ryzen AI 5 340
