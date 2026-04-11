@@ -100,11 +100,13 @@ The thermal map vs. resulting power density (heat flux map) over time, with diff
 | iGPU performance | ~5–6 TFLOPs (est.) |
 | TDP | 28–45 W (configurable, CPU + GPU + NPU) |
 
+
 https://github.com/user-attachments/assets/8a739d2f-3365-4e92-8f43-a75133d3b7ff
+
 The thermal map video above shows the changing hot spots across different cores over time for AMD Ryzen AI 5 340.
 
-
 https://github.com/user-attachments/assets/874c789d-00cc-4a5b-95fc-e7d4808d0a4d
+
 The resulting power density map from the thermal map
 
 
