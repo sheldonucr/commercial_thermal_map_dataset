@@ -147,7 +147,7 @@ The resulting power density map from the thermal map
 
 <figure>
   <p align="center" width="100%">
-    <img src="https://github.com/sheldonucr/commercial_thermal_map_dataset/blob/main/fig/thermal_map_RTX_4060.png" width="400">
+    <img src="https://github.com/sheldonucr/commercial_thermal_map_dataset/blob/main/figs/thermal_map_RTX_4060.png" width="400">
     <figcaption><p align="center">Fig. 4 — Thermal map of NVIDIA RTX 4060</p></figcaption>
   </p>
 </figure>
@@ -202,7 +202,7 @@ https://github.com/user-attachments/assets/64ed355c-c11c-4b7c-9da3-8abfabf69e1c
 
 <figure>
   <p align="center" width="100%">
-    <img src="https://github.com/sheldonucr/commercial_thermal_map_dataset/blob/main/fig/thermal_map_Google_Edge.png" width="400">
+    <img src="https://github.com/sheldonucr/commercial_thermal_map_dataset/blob/main/figs/thermal_map_Google_Edge.png" width="400">
     <figcaption><p align="center">Fig. 5 — Thermal map of Google Coral M.2 TPU</p></figcaption>
   </p>
 </figure>
