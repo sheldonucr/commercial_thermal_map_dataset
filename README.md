@@ -42,21 +42,21 @@ Files starting with `CPU_i5` and `CPU_i7` contain data for the Intel i5-3337U an
 
 <figure>
   <p align="center" width="100%">
-    <img src="https://github.com/sheldonucr/commercial_thermal_map_dataset/blob/main/fig/thermal_map_i5_3337U.png" width="400">
+    <img src="https://github.com/sheldonucr/commercial_thermal_map_dataset/blob/main/figs/thermal_map_i5_3337U.png" width="400">
     <figcaption><p align="center">Fig. 1 — Thermal map of Intel i5-3337U</p></figcaption>
   </p>
 </figure>
 
 <figure>
   <p align="center" width="100%">
-    <img src="https://github.com/sheldonucr/commercial_thermal_map_dataset/blob/main/fig/thermal_map_i7_8650U.png" width="400">
+    <img src="https://github.com/sheldonucr/commercial_thermal_map_dataset/blob/main/figs/thermal_map_i7_8650U.png" width="400">
     <figcaption><p align="center">Fig. 2 — Thermal map of Intel i7-8650U</p></figcaption>
   </p>
 </figure>
 
 <figure>
   <p align="center" width="100%">
-    <img src="https://github.com/sheldonucr/commercial_thermal_map_dataset/blob/main/fig/i7_hotspot.png" width="400">
+    <img src="https://github.com/sheldonucr/commercial_thermal_map_dataset/blob/main/figs/i7_hotspot.png" width="400">
     <figcaption><p align="center">Fig. 3 — i7-8650U with temperatures at sensor and true hot spot</p></figcaption>
   </p>
 </figure>
