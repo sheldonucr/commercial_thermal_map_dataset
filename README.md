@@ -60,17 +60,13 @@ Files starting with `CPU_i5` and `CPU_i7` contain data for the Intel i5-3337U an
   </p>
 </figure>
 
-<video src="https://raw.githubusercontent.com/sheldonucr/commercial_thermal_map_dataset/main/figs/CPU_i5_flac_thermal.mp4" controls width="420">
-  Intel i5-3337U FLAC thermal-map evolution video.
-</video>
+[Intel i5-3337U FLAC thermal-map evolution video](https://github.com/sheldonucr/commercial_thermal_map_dataset/blob/main/figs/CPU_i5_flac_thermal.mp4)
 
-The video above shows the Intel i5-3337U thermal-map evolution during the FLAC workload, illustrating how the 2D temperature distribution changes over time.
+The video link above shows the Intel i5-3337U thermal-map evolution during the FLAC workload, illustrating how the 2D temperature distribution changes over time.
 
-<video src="https://raw.githubusercontent.com/sheldonucr/commercial_thermal_map_dataset/main/figs/CPU_i5_flac_thermal_3d.mp4" controls width="640">
-  Intel i5-3337U FLAC 3D thermal-surface video.
-</video>
+[Intel i5-3337U FLAC 3D thermal-surface video](https://github.com/sheldonucr/commercial_thermal_map_dataset/blob/main/figs/CPU_i5_flac_thermal_3d.mp4)
 
-The video above shows the same Intel i5-3337U FLAC workload as a 3D thermal surface, making the hot-spot intensity and spatial temperature gradients easier to inspect.
+The video link above shows the same Intel i5-3337U FLAC workload as a 3D thermal surface, making the hot-spot intensity and spatial temperature gradients easier to inspect.
 
 <figure>
   <p align="center" width="100%">
