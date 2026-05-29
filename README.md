@@ -79,7 +79,11 @@ https://github.com/user-attachments/assets/0a5c6d14-5940-4c1d-82af-771f71f61019
 
 The video above shows the Intel i5-3337U thermal-map evolution during the FLAC workload, illustrating how the 2D temperature distribution changes over time.
 
+
 https://github.com/user-attachments/assets/24e2e7a4-7173-422b-b309-269cd96b8244
+
+
+<video src="https://github.com/user-attachments/assets/24e2e7a4-7173-422b-b309-269cd96b8244" width="50" controls></video>
 
 The video above shows the same Intel i5-3337U FLAC workload as a 3D thermal surface, making the hot-spot intensity and spatial temperature gradients easier to inspect.
 
@@ -149,8 +153,6 @@ The thermal map video above shows how hot spots move across cores over time for 
 
 https://github.com/user-attachments/assets/874c789d-00cc-4a5b-95fc-e7d4808d0a4d
 
-
-<video src="https://github.com/user-attachments/assets/874c789d-00cc-4a5b-95fc-e7d4808d0a4d" width="60%" controls></video>
 
 The video above shows the power-density map derived from the thermal map.
 
