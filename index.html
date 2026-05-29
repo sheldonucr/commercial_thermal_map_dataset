@@ -33,7 +33,10 @@
     figure { margin: 24px 0; }
     figcaption { color: var(--muted); font-size: 0.95rem; }
     img { max-width: 100%; height: auto; }
-    video { display: block; width: 100%; max-width: 860px; margin: 20px auto 10px; border: 1px solid var(--border); border-radius: 8px; background: #000; }
+    video { display: block; width: min(50%, 520px); min-width: 320px; margin: 20px auto 10px; border: 1px solid var(--border); border-radius: 8px; background: #000; }
+    @media (max-width: 680px) {
+      video { width: 100%; min-width: 0; }
+    }
     hr { border: 0; border-top: 1px solid var(--border); margin: 28px 0; }
   </style>
 </head>
