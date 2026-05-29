@@ -149,9 +149,10 @@ The thermal map video above shows how hot spots move across cores over time for 
 
 https://github.com/user-attachments/assets/874c789d-00cc-4a5b-95fc-e7d4808d0a4d
 
+
+<video src="https://github.com/user-attachments/assets/874c789d-00cc-4a5b-95fc-e7d4808d0a4d" width="60%" controls></video>
+
 The video above shows the power-density map derived from the thermal map.
-
-
 
 
 
