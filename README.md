@@ -75,11 +75,11 @@ Files starting with `CPU_i5` and `CPU_i7` contain data for the Intel i5-3337U an
 </figure>
 
 
-https://github.com/user-attachments/assets/0a5c6d14-5940-4c1d-82af-771f71f61019
+<video src="https://github.com/user-attachments/assets/0a5c6d14-5940-4c1d-82af-771f71f61019" width="100%" controls></video>
 
 The video above shows the Intel i5-3337U thermal-map evolution during the FLAC workload, illustrating how the 2D temperature distribution changes over time. 
 
-https://github.com/user-attachments/assets/24e2e7a4-7173-422b-b309-269cd96b8244
+<video src="https://github.com/user-attachments/assets/24e2e7a4-7173-422b-b309-269cd96b8244" width="100%" controls></video>
 
 The video above shows the same Intel i5-3337U FLAC workload as a 3D thermal surface, making the hot-spot intensity and spatial temperature gradients easier to inspect.
 
@@ -99,13 +99,13 @@ The video above shows the same Intel i5-3337U FLAC workload as a 3D thermal surf
 
 <video src="./figs/thermal_map_R7_4800U.mp4" width="100%" controls></video>
 
-https://github.com/user-attachments/assets/4530c8a6-53b7-4b22-b7cf-edf249699f63
+<video src="https://github.com/user-attachments/assets/4530c8a6-53b7-4b22-b7cf-edf249699f63" width="100%" controls></video>
 
 The thermal map video above shows how hot spots move across cores over time.
 
 <!-- https://github.com/user-attachments/assets/8c392588-4187-47c9-acf7-099b463f46ca -->
 
-https://github.com/user-attachments/assets/8c392588-4187-47c9-acf7-099b463f46ca
+<video src="https://github.com/user-attachments/assets/8c392588-4187-47c9-acf7-099b463f46ca" width="100%" controls></video>
 
 The video above compares the thermal map with the resulting power-density map over time.
 
@@ -124,7 +124,7 @@ The video above compares the thermal map with the resulting power-density map ov
 
 
 
-https://github.com/user-attachments/assets/3ab45b67-f376-4de8-b35a-6d3d0999e641
+<video src="https://github.com/user-attachments/assets/3ab45b67-f376-4de8-b35a-6d3d0999e641" width="100%" controls></video>
 
 The thermal map video above shows how hot spots move across cores over time.
 
@@ -143,11 +143,11 @@ The thermal map video above shows how hot spots move across cores over time.
 | TDP | 28–45 W (configurable, CPU + GPU + NPU) |
 
 
-https://github.com/user-attachments/assets/8a739d2f-3365-4e92-8f43-a75133d3b7ff
+<video src="https://github.com/user-attachments/assets/8a739d2f-3365-4e92-8f43-a75133d3b7ff" width="100%" controls></video>
 
 The thermal map video above shows how hot spots move across cores over time for the AMD Ryzen AI 5 340.
 
-https://github.com/user-attachments/assets/874c789d-00cc-4a5b-95fc-e7d4808d0a4d
+<video src="https://github.com/user-attachments/assets/874c789d-00cc-4a5b-95fc-e7d4808d0a4d" width="100%" controls></video>
 
 
 The video above shows the power-density map derived from the thermal map.
@@ -191,7 +191,7 @@ The Qualcomm SM6225 Snapdragon 680 4G data captures thermal-map and power-densit
 
 The video below shows the temporal evolution of the thermal map for the Qualcomm SM6225 Snapdragon 680 4G SoC, illustrating how on-chip temperature distributions change during workload execution.
 
-https://github.com/user-attachments/assets/f6162fc7-5f25-4ce1-9a9f-9ff99ebeeb3c
+<video src="https://github.com/user-attachments/assets/f6162fc7-5f25-4ce1-9a9f-9ff99ebeeb3c" width="100%" controls></video>
 
 ---
 
@@ -200,7 +200,7 @@ https://github.com/user-attachments/assets/f6162fc7-5f25-4ce1-9a9f-9ff99ebeeb3c
 The video below compares the initial thermal map with the derived power-density map over time. Distinct hot-spot regions show the relationship between localized power dissipation and temperature rise.
 
 <!-- https://github.com/user-attachments/assets/251f853d-20c0-4e65-9642-45ac84d38089 -->
-https://github.com/user-attachments/assets/b0105b6f-8797-4dea-91d5-d291cb2767dc
+<video src="https://github.com/user-attachments/assets/b0105b6f-8797-4dea-91d5-d291cb2767dc" width="100%" controls></video>
 
 ---
 
@@ -208,7 +208,7 @@ https://github.com/user-attachments/assets/b0105b6f-8797-4dea-91d5-d291cb2767dc
 
 The video below shows an enlarged view of the thermal map alongside the corresponding power-density map, providing finer spatial resolution of hot-spot formation and evolution over time.
 
-https://github.com/user-attachments/assets/64ed355c-c11c-4b7c-9da3-8abfabf69e1c
+<video src="https://github.com/user-attachments/assets/64ed355c-c11c-4b7c-9da3-8abfabf69e1c" width="100%" controls></video>
 
 
 
