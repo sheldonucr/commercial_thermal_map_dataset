@@ -60,13 +60,6 @@ Files starting with `CPU_i5` and `CPU_i7` contain data for the Intel i5-3337U an
   </p>
 </figure>
 
-
-https://github.com/user-attachments/assets/0a5c6d14-5940-4c1d-82af-771f71f61019
-The video above shows the Intel i5-3337U thermal-map evolution during the FLAC workload, illustrating how the 2D temperature distribution changes over time.
-
-https://github.com/user-attachments/assets/24e2e7a4-7173-422b-b309-269cd96b8244
-The video above shows the same Intel i5-3337U FLAC workload as a 3D thermal surface, making the hot-spot intensity and spatial temperature gradients easier to inspect.
-
 <figure>
   <p align="center" width="100%">
     <img src="https://github.com/sheldonucr/commercial_thermal_map_dataset/blob/main/figs/thermal_map_i7_8650U.png" width="400">
@@ -81,6 +74,14 @@ The video above shows the same Intel i5-3337U FLAC workload as a 3D thermal surf
   </p>
 </figure>
 
+
+https://github.com/user-attachments/assets/0a5c6d14-5940-4c1d-82af-771f71f61019
+
+The video above shows the Intel i5-3337U thermal-map evolution during the FLAC workload, illustrating how the 2D temperature distribution changes over time.
+
+https://github.com/user-attachments/assets/24e2e7a4-7173-422b-b309-269cd96b8244
+
+The video above shows the same Intel i5-3337U FLAC workload as a 3D thermal surface, making the hot-spot intensity and spatial temperature gradients easier to inspect.
 
 ## AMD Ryzen 7 4800U
 
