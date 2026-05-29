@@ -7,35 +7,160 @@
   <style>
     :root {
       color-scheme: light;
-      --text: #1f2933;
-      --muted: #52606d;
-      --border: #d9e2ec;
-      --accent: #006d77;
+      --text: #172026;
+      --muted: #5f6f7a;
+      --border: #d7dee5;
+      --accent: #0b7285;
+      --accent-dark: #075866;
       --bg: #ffffff;
-      --soft: #f5f7fa;
+      --soft: #f6f8fa;
+      --panel: #fbfcfd;
     }
     * { box-sizing: border-box; }
-    body { margin: 0; background: var(--bg); color: var(--text); font: 16px/1.6 -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; }
-    main { width: min(1040px, calc(100% - 32px)); margin: 0 auto; padding: 40px 0 64px; }
-    h1 { margin: 0 0 18px; font-size: clamp(2rem, 4vw, 3.25rem); line-height: 1.1; letter-spacing: 0; }
-    h2 { margin-top: 44px; padding-top: 8px; border-top: 1px solid var(--border); font-size: 1.65rem; line-height: 1.25; }
-    h3 { margin-top: 28px; font-size: 1.2rem; }
+    html { scroll-behavior: smooth; }
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--text);
+      font: 16px/1.6 -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+    }
+    main { width: min(1080px, calc(100% - 40px)); margin: 0 auto; padding: 32px 0 72px; }
+    .hero {
+      padding: 42px 0 30px;
+      border-bottom: 1px solid var(--border);
+    }
+    .eyebrow {
+      margin: 0 0 10px;
+      color: var(--accent-dark);
+      font-size: 0.82rem;
+      font-weight: 700;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+    }
+    h1 {
+      max-width: 940px;
+      margin: 0 0 18px;
+      font-size: clamp(2rem, 4vw, 3.35rem);
+      line-height: 1.08;
+      letter-spacing: 0;
+    }
+    .lead {
+      max-width: 880px;
+      margin: 0;
+      color: #344955;
+      font-size: 1.08rem;
+    }
+    .actions {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin-top: 22px;
+    }
+    .button {
+      display: inline-flex;
+      align-items: center;
+      min-height: 40px;
+      padding: 8px 14px;
+      border: 1px solid var(--accent);
+      border-radius: 6px;
+      background: var(--accent);
+      color: #fff;
+      font-weight: 650;
+      text-decoration: none;
+    }
+    .button.secondary {
+      background: #fff;
+      color: var(--accent-dark);
+      border-color: var(--border);
+    }
+    .overview {
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) minmax(280px, 0.8fr);
+      gap: 28px;
+      align-items: start;
+      padding: 26px 0 10px;
+    }
+    .processor-panel {
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      background: var(--panel);
+      padding: 18px 20px;
+    }
+    .panel-title {
+      margin: 0 0 12px;
+      padding: 0;
+      border: 0;
+      font-size: 1rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.04em;
+      color: var(--muted);
+    }
+    .processor-list {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 8px;
+      margin: 0;
+      padding: 0;
+      list-style: none;
+    }
+    .processor-list li {
+      padding: 7px 0;
+      border-bottom: 1px solid #e8edf2;
+    }
+    .processor-list li:last-child { border-bottom: 0; }
+    .toc {
+      position: sticky;
+      top: 0;
+      z-index: 2;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      padding: 12px 0;
+      margin: 8px 0 28px;
+      background: rgba(255, 255, 255, 0.96);
+      border-bottom: 1px solid var(--border);
+      backdrop-filter: blur(10px);
+    }
+    .toc a {
+      padding: 5px 9px;
+      border: 1px solid var(--border);
+      border-radius: 6px;
+      color: var(--accent-dark);
+      font-size: 0.9rem;
+      text-decoration: none;
+      background: #fff;
+    }
+    h2 {
+      margin-top: 46px;
+      padding-top: 18px;
+      border-top: 1px solid var(--border);
+      font-size: 1.55rem;
+      line-height: 1.25;
+    }
+    h3 { margin-top: 28px; font-size: 1.15rem; }
     p { margin: 14px 0; }
-    a { color: var(--accent); text-decoration-thickness: 1px; text-underline-offset: 2px; }
+    a { color: var(--accent-dark); text-decoration-thickness: 1px; text-underline-offset: 2px; }
     ul { padding-left: 1.35rem; }
     code { background: var(--soft); border: 1px solid var(--border); border-radius: 4px; padding: 0.1rem 0.28rem; font-size: 0.92em; }
-    pre { overflow-x: auto; background: #0b1020; color: #eef2ff; padding: 18px; border-radius: 8px; line-height: 1.45; }
+    pre { overflow-x: auto; background: #111827; color: #f3f4f6; padding: 18px; border-radius: 8px; line-height: 1.45; }
     pre code { background: transparent; border: 0; padding: 0; color: inherit; }
-    .table-wrap { overflow-x: auto; margin: 16px 0 24px; }
+    .table-wrap { overflow-x: auto; margin: 16px 0 24px; border: 1px solid var(--border); border-radius: 8px; }
     table { width: 100%; border-collapse: collapse; }
-    th, td { border: 1px solid var(--border); padding: 10px 12px; text-align: left; vertical-align: top; }
+    th, td { border-bottom: 1px solid var(--border); padding: 10px 12px; text-align: left; vertical-align: top; }
+    tr:last-child td { border-bottom: 0; }
     th { background: var(--soft); font-weight: 700; }
-    figure { margin: 24px 0; }
+    figure { margin: 26px 0; text-align: center; }
+    figure p { margin: 0; }
     figcaption { color: var(--muted); font-size: 0.95rem; }
     img { max-width: 100%; height: auto; }
-    figure img { width: min(400px, 100%); }
+    figure img { width: min(400px, 100%); border: 1px solid var(--border); border-radius: 8px; background: #fff; }
     video { display: block; width: min(400px, 100%); margin: 20px auto 10px; border: 1px solid var(--border); border-radius: 8px; background: #000; }
-    @media (max-width: 680px) {
+    @media (max-width: 760px) {
+      main { width: min(100% - 28px, 1080px); padding-top: 20px; }
+      .hero { padding-top: 22px; }
+      .overview { grid-template-columns: 1fr; }
+      .toc { position: static; }
       figure img, video { width: 100%; }
     }
     hr { border: 0; border-top: 1px solid var(--border); margin: 28px 0; }
@@ -43,11 +168,25 @@
 </head>
 <body>
   <main>
+<header class="hero">
+<p class="eyebrow">Commercial Processor Thermal Dataset</p>
 <h1 id="thermal-map-dataset-for-commercial-cpu-gpu-tpu-multi-many-core-processors">Thermal Map Dataset for Commercial CPU/GPU/TPU Multi/Many-Core Processors</h1>
-<p>This repository provides thermal-map datasets for training and evaluating machine learning models that predict the spatial temperature distribution of commercial processors from performance metrics, workload features, or time-series runtime signals.</p>
-<p>GitHub repository: <a href="https://github.com/sheldonucr/commercial_thermal_map_dataset">sheldonucr/commercial_thermal_map_dataset</a></p>
-<p>The dataset covers the following processors:</p>
-<ul>
+<p class="lead">Thermal-map datasets for training and evaluating machine learning models that predict the spatial temperature distribution of commercial processors from performance metrics, workload features, and time-series runtime signals.</p>
+<div class="actions">
+<a class="button" href="https://github.com/sheldonucr/commercial_thermal_map_dataset">GitHub Repository</a>
+<a class="button secondary" href="https://github.com/user-attachments/files/17787524/Commerical.Thermal.Map.Dataset.pdf">Dataset Paper</a>
+<a class="button secondary" href="#citing-this-dataset">Citation</a>
+</div>
+</header>
+<section class="overview" aria-label="Dataset overview">
+<div>
+<p>We will continue to expand this database with additional platforms and workloads.</p>
+<p>The data is stored as serialized Python objects and can be read with Python&#x27;s <code>pickle</code> module. Each file contains a Python dictionary with two keys: <code>&quot;input&quot;</code> and <code>&quot;output&quot;</code>. The <code>&quot;input&quot;</code> entry stores a 2D or 3D NumPy array containing performance metrics, workload descriptors, or other model inputs. The <code>&quot;output&quot;</code> entry stores a 3D array of thermal maps. The first dimension indexes the data point. For each data point, the input may be a feature vector or a time series, while the output is a 2D temperature map in degrees Celsius.</p>
+<p>Because of GitHub file size limits, this repository includes representative samples. Complete datasets are available upon request.</p>
+</div>
+<aside class="processor-panel">
+<p class="panel-title">Covered Processors</p>
+<ul class="processor-list">
 <li>Intel Core i5-3337U</li>
 <li>Intel Core i7-8650U</li>
 <li>AMD Ryzen 7 4800U</li>
@@ -57,9 +196,19 @@
 <li>Qualcomm Snapdragon 680 (SM6225)</li>
 <li>AMD Ryzen AI 5 340</li>
 </ul>
-<p>We will continue to expand this database with additional platforms and workloads.</p>
-<p>The data is stored as serialized Python objects and can be read with Python&#x27;s <code>pickle</code> module. Each file contains a Python dictionary with two keys: <code>&quot;input&quot;</code> and <code>&quot;output&quot;</code>. The <code>&quot;input&quot;</code> entry stores a 2D or 3D NumPy array containing performance metrics, workload descriptors, or other model inputs. The <code>&quot;output&quot;</code> entry stores a 3D array of thermal maps. The first dimension indexes the data point. For each data point, the input may be a feature vector or a time series, while the output is a 2D temperature map in degrees Celsius.</p>
-<p>Because of GitHub file size limits, this repository includes representative samples. Complete datasets are available upon request.</p>
+</aside>
+</section>
+<nav class="toc" aria-label="Page sections">
+<a href="#references">References</a>
+<a href="#intel-i5-3337u-i7-8650u">Intel CPUs</a>
+<a href="#amd-ryzen-7-4800u">Ryzen 4800U</a>
+<a href="#amd-ryzen-7-7730u">Ryzen 7730U</a>
+<a href="#amd-ryzen-ai-5-340">Ryzen AI</a>
+<a href="#nvidia-geforce-rtx-4060">RTX 4060</a>
+<a href="#qualcomm-sm6225-snapdragon-680-4g">Snapdragon</a>
+<a href="#google-coral-m-2-tpu">Edge TPU</a>
+<a href="#citing-this-dataset">Cite</a>
+</nav>
 <h2 id="references">References</h2>
 <p>Lu J, Tan S X, &quot;Thermal Map Dataset for Commercial Multi/Many Core CPU/GPU/TPU&quot;, Proceedings of the 2024 ACM/IEEE International Symposium on Machine Learning for CAD, vol. 33, pp. 1–7, 2024. DOI: 10.1145/3670474.3685963. The paper can be downloaded here: <a href="https://github.com/user-attachments/files/17787524/Commerical.Thermal.Map.Dataset.pdf">Commercial Thermal Map Dataset.pdf</a></p>
 <h2 id="related-project">Related Project</h2>
